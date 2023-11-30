@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Invoice</title>
+
+		<style type="text/css">
+			* {
+				font-family: Verdana, Arial, sans-serif;
+			}
+
+			table {
+				font-size: x-small;
+			}
+
+			tfoot tr td {
+				font-weight: bold;
+				font-size: x-small;
+			}
+
+			.gray {
+				background-color: lightgray
+			}
+		</style>
+	</head>
+
+	<body>
+
+
+		<table width="100%">
+			<thead style="background-color: lightgray;">
+				<tr>
+					{% for header in data.headers %}
+						<th>{{ header }}</th>
+					{% endfor %}
+				</tr>
+			</thead>
+			<tbody>
+				{% for line in data.content %}
+					<tr>
+						{% for column in line %}
+							<td>{{column}}</td>
+						{% endfor %}
+					</tr>
+				{% endfor %}
+			</tbody>
+		</tbody>
+	</body>
+</html></body></html></table></body></html>

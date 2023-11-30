@@ -1,0 +1,18 @@
+{
+    "name": "remysd/pdf_generator",
+    "autoload": {
+        "psr-4": {
+            "Remysd\\PdfGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Remy",
+            "email": "remy.sainsard@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "twig/twig": "^3.8"
+    }
+}
