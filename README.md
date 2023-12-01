@@ -30,4 +30,4 @@ how go to http://localhost:8000/
 
 This project of created for the below YouTube vidéo
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h7442H7NBoA/0.jpg)](https://www.youtube.com/watch?v=h7442H7NBoA&t=74s)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/h7442H7NBoA/0.jpg)](https://youtu.be/h7442H7NBoA?si=ryif8pOz5oEE8ykz)
